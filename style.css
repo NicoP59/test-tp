@@ -32,11 +32,11 @@ a {
 }
 /* Header */
 
-.main-head {
+/* .main-head {
   background: gray;
   color: black;
   display: flex;
-}
+} */
 
 nav {
   min-height: 10vh;
@@ -44,7 +44,6 @@ nav {
   align-items: center;
   width: 100%;
   margin: auto;
-  /* padding: 2rem; */
   background-image: url("Image/stars.jpg");
 }
 
@@ -74,6 +73,18 @@ article {
   padding: 1em;
   text-align: center;
   margin: 0;
+}
+
+.index2 {
+  font-size: 90px;
+  padding-top: 200px;
+  padding-bottom: 149px;
+}
+
+.index3 {
+  font-size: 90px;
+  padding-top: 200px;
+  padding-bottom: 149px;
 }
 
 h1 {
@@ -117,6 +128,7 @@ button {
   box-shadow: 0px -0px 0px 0px rgba(143, 64, 248, 0.5),
     0px 0px 0px 0px rgba(39, 200, 255, 0.5);
   background-color: grey;
+  margin-bottom: 100px;
 }
 
 button::after {
