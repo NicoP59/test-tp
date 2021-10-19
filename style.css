@@ -27,8 +27,8 @@ a {
 }
 
 @font-face {
-  font-family: "Ephesis-Regular.ttf";
-  src: url("./Image/Ephesis-Regular.ttf");
+  font-family: 'Ephesis-Regular.ttf';
+  src: url('./Image/Ephesis-Regular.ttf');
 }
 /* Header */
 
@@ -44,7 +44,7 @@ nav {
   align-items: center;
   width: 100%;
   margin: auto;
-  background-image: url("Image/stars.jpg");
+  background-image: url('Image/stars.jpg');
 }
 
 nav ul {
@@ -132,7 +132,7 @@ button {
 }
 
 button::after {
-  content: "";
+  content: '';
   width: 400px;
   height: 400px;
   position: absolute;
@@ -163,7 +163,7 @@ button:hover {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  font-family: "Ephesis-Regular.ttf";
+  font-family: 'Ephesis-Regular.ttf';
   background-color: rgb(8, 0, 31);
 }
 
@@ -184,7 +184,7 @@ button:hover {
   border-radius: 20px;
   box-shadow: rgb(180, 177, 177);
   background-color: #000000;
-  background-image: url("Image/stars.jpg");
+  background-image: url('Image/stars.jpg');
 }
 
 .diap3 {
@@ -200,7 +200,7 @@ button:hover {
   border-radius: 20px;
   box-shadow: rgb(180, 177, 177);
   background-color: black;
-  background-image: url("Image/stars.jpg");
+  background-image: url('Image/stars.jpg');
 }
 
 .asideP {
@@ -236,5 +236,17 @@ footer {
   background-color: rgb(54, 80, 121);
   height: 10vh;
   align-items: center;
-  background-image: url("image/etoile.jpg");
+  background-image: url('image/etoile.jpg');
+}
+
+/* *************************RESPONSIVE**************************** */
+
+@media screen and (max-width: 600px) {
+  h1 {
+    color: pink;
+    font-size: 10px;
+  }
+  nav {
+    display: none;
+  }
 }
