@@ -31,13 +31,6 @@ a {
   src: url("./Image/Ephesis-Regular.ttf");
 }
 /* Header */
-
-/* .main-head {
-  background: gray;
-  color: black;
-  display: flex;
-} */
-
 nav {
   min-height: 10vh;
   display: flex;
