@@ -56,12 +56,7 @@ article {
   margin: 0;
 }
 
-.index2 {
-  font-size: 90px;
-  padding-top: 200px;
-  padding-bottom: 149px;
-}
-
+.index2,
 .index3 {
   font-size: 90px;
   padding-top: 200px;
@@ -152,7 +147,8 @@ button:hover {
   color: wheat;
 }
 
-.diap2 {
+.diap2,
+.diap3 {
   overflow-y: hidden;
   font-size: 30px;
   text-align: center;
@@ -166,27 +162,6 @@ button:hover {
   box-shadow: rgb(180, 177, 177);
   background-color: #000000;
   background-image: url("Image/stars.jpg");
-}
-
-.diap3 {
-  overflow-y: hidden;
-  font-size: 30px;
-  text-align: center;
-  margin-top: 30px;
-  height: 40vh;
-  width: 40vw;
-  color: tomato;
-  border: 1px solid black;
-  padding: 50px;
-  border-radius: 20px;
-  box-shadow: rgb(180, 177, 177);
-  background-color: black;
-  background-image: url("Image/stars.jpg");
-}
-
-.asideP {
-  display: flex;
-  flex-direction: column;
 }
 
 .Planet_div {
@@ -257,7 +232,7 @@ footer {
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   aside {
