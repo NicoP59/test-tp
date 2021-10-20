@@ -98,7 +98,7 @@ h1 {
 }
 
 button {
-  padding: 20px 50px;
+  padding: 20px 30px;
   font-size: 1.5rem;
   cursor: pointer;
   border: 0px;
@@ -110,7 +110,7 @@ button {
   box-shadow: 0px -0px 0px 0px rgba(143, 64, 248, 0.5),
     0px 0px 0px 0px rgba(39, 200, 255, 0.5);
   background-color: grey;
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 
 button::after {
@@ -223,7 +223,7 @@ footer {
 
 /* *************************RESPONSIVE**************************** */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   /* **************header************* */
   nav {
     display: flex;
@@ -245,12 +245,20 @@ footer {
   }
   p {
     font-size: 20px;
+    text-align: center;
+  }
+  .para1 {
+    padding: 50px;
   }
 
   /* ************aside**************** */
 
   video {
     display: none;
+  }
+
+  h2 {
+    font-size: 30px;
   }
 
   aside {
@@ -261,15 +269,20 @@ footer {
     text-align: center;
     height: 410px;
     width: 450px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 45px;
+    margin: 15px;
+    border: 1rem solid black;
   }
 
   .diap3 {
     text-align: center;
     height: 400px;
     width: 450px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 45px;
+    margin: 15px;
+    border: 1rem solid black;
+  }
+  #conteneur {
+    margin: 0;
   }
 }
