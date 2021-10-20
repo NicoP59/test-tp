@@ -31,7 +31,6 @@ nav {
 
 nav ul {
   display: flex;
-  flex: 1 1 40rem;
   justify-content: right;
   align-items: center;
   list-style: none;
@@ -233,7 +232,6 @@ footer {
   nav ul {
     flex-direction: column;
     width: auto;
-    flex: none;
   }
   .logo {
     width: 150px;
