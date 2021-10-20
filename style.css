@@ -183,6 +183,9 @@ button:hover {
   padding: 30px;
   color: rgb(255, 255, 255);
 }
+.icone {
+  display: none;
+}
 
 /* footer */
 
@@ -258,5 +261,10 @@ footer {
   }
   #conteneur {
     margin: 0;
+  }
+
+  .icone {
+    width: 15vw;
+    display: block;
   }
 }
